@@ -1,0 +1,836 @@
+Jan 29, 2026 9:43:40 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 29, 2026 9:43:40 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: dsp@gmail.com
+Jan 29, 2026 9:43:41 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 29, 2026 9:43:47 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist registered successfully: dsp@gmail.com
+Jan 29, 2026 9:56:36 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: pilli@gmail.com
+Jan 29, 2026 9:56:39 PM com.revplay.util.LoggerUtil logInfo
+INFO: User registered successfully: pilli@gmail.com
+Jan 29, 2026 10:57:44 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 29, 2026 10:57:44 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 9:13:29 AM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 9:13:29 AM com.revplay.util.LoggerUtil logError
+SEVERE: Failed to load database config
+java.lang.RuntimeException: db.properties not found in src folder
+	at com.revplay.util.JDBCUtil.<clinit>(JDBCUtil.java:23)
+	at com.revplay.dao.UserAccountDaoImpl.getUserAccountByEmail(UserAccountDaoImpl.java:73)
+	at com.revplay.service.UserAccountServiceImpl.getUserByEmail(UserAccountServiceImpl.java:56)
+	at com.revplay.main.Main.loginUser(Main.java:78)
+	at com.revplay.main.Main.main(Main.java:39)
+
+Jan 30, 2026 9:18:29 AM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 9:18:29 AM com.revplay.util.LoggerUtil logError
+SEVERE: Failed to load database config
+java.lang.RuntimeException: db.properties not found in src folder
+	at com.revplay.util.JDBCUtil.<clinit>(JDBCUtil.java:23)
+	at com.revplay.dao.UserAccountDaoImpl.getUserAccountByEmail(UserAccountDaoImpl.java:73)
+	at com.revplay.service.UserAccountServiceImpl.getUserByEmail(UserAccountServiceImpl.java:56)
+	at com.revplay.main.Main.loginUser(Main.java:78)
+	at com.revplay.main.Main.main(Main.java:39)
+
+Jan 30, 2026 9:23:05 AM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 9:23:05 AM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 12:01:01 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 12:01:01 PM com.revplay.util.LoggerUtil logError
+SEVERE: Failed to load database config
+java.lang.RuntimeException: db.properties not found in src folder
+	at com.revplay.util.JDBCUtil.<clinit>(JDBCUtil.java:23)
+	at com.revplay.dao.ArtistDaoImpl.registerArtist(ArtistDaoImpl.java:17)
+	at com.revplay.service.ArtistServiceTest.testLogin_Success(ArtistServiceTest.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.revplay.ManualTestRunner.main(ManualTestRunner.java:22)
+
+Jan 30, 2026 12:01:01 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: artist_a3e70b4f-eed4-4697-8ba0-3062e4c217ad@music.com
+Jan 30, 2026 12:01:01 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: test_438ec39d-6d4c-4e5f-ac30-7914b475116d@example.com
+Jan 30, 2026 12:01:01 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: duplicate_900efedc-d924-41f9-9edd-ec6bbd2eb5da@example.com
+Jan 30, 2026 12:01:30 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 12:01:30 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 12:01:35 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: login_3eb5df88-cedc-4391-92f7-e2cfe3e6c321@music.com
+Jan 30, 2026 12:01:38 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login successful: login_3eb5df88-cedc-4391-92f7-e2cfe3e6c321@music.com
+Jan 30, 2026 12:01:38 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: artist_9940749c-f214-4736-aa1d-0346a1b99522@music.com
+Jan 30, 2026 12:01:41 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist registered successfully: artist_9940749c-f214-4736-aa1d-0346a1b99522@music.com
+Jan 30, 2026 12:01:45 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: fail_4bd262ea-3d7c-4291-bd33-20f01db1b0c1@music.com
+Jan 30, 2026 12:01:47 PM com.revplay.util.LoggerUtil logWarning
+WARNING: Artist login failed: fail_4bd262ea-3d7c-4291-bd33-20f01db1b0c1@music.com
+Jan 30, 2026 12:01:47 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: test_83371888-8c95-44d0-a74d-996bbadcf921@example.com
+Jan 30, 2026 12:01:52 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: duplicate_2e600c35-26bb-44f1-9808-7436683467cc@example.com
+Jan 30, 2026 12:02:11 PM com.revplay.util.LoggerUtil logError
+SEVERE: Error in addGenre: ORA-00001: unique constraint (DADANFAYAZALI_SCHEMA_1E11D.SYS_C001749358) violated on table DADANFAYAZALI_SCHEMA_1E11D.GENRE columns (GENRE_NAME)
+ORA-03301: (ORA-00001 details) row with column values (GENRE_NAME:'Rock') already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (DADANFAYAZALI_SCHEMA_1E11D.SYS_C001749358) violated on table DADANFAYAZALI_SCHEMA_1E11D.GENRE columns (GENRE_NAME)
+ORA-03301: (ORA-00001 details) row with column values (GENRE_NAME:'Rock') already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:975)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1510)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2020)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1633)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973)
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1007)
+	at com.revplay.dao.GenreDaoImpl.addGenre(GenreDaoImpl.java:72)
+	at com.revplay.service.GenreServiceTest.testGetOrCreateGenre_Existing(GenreServiceTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.revplay.ManualTestRunner.main(ManualTestRunner.java:22)
+Caused by: Error : 1, Position : 0, SQL = INSERT INTO GENRE (genre_name) VALUES (:1 ), Original SQL = INSERT INTO GENRE (genre_name) VALUES (?), Error Message = ORA-00001: unique constraint (DADANFAYAZALI_SCHEMA_1E11D.SYS_C001749358) violated on table DADANFAYAZALI_SCHEMA_1E11D.GENRE columns (GENRE_NAME)
+ORA-03301: (ORA-00001 details) row with column values (GENRE_NAME:'Rock') already exists
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723)
+	... 79 more
+
+Jan 30, 2026 12:02:22 PM com.revplay.util.LoggerUtil logError
+SEVERE: Error in addUserAccount: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."USER_ACCOUNT"."PASSWORD_HASH")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."USER_ACCOUNT"."PASSWORD_HASH")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:975)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1510)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2020)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1633)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973)
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1007)
+	at com.revplay.dao.UserAccountDaoImpl.addUserAccount(UserAccountDaoImpl.java:28)
+	at com.revplay.service.PlaylistServiceTest.testDeletePlaylist_Success(PlaylistServiceTest.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.revplay.ManualTestRunner.main(ManualTestRunner.java:22)
+Caused by: Error : 1400, Position : 161, SQL = INSERT INTO USER_ACCOUNT (full_name, email, password_hash, phone, status, created_at, security_question, security_answer_hash, password_hint) VALUES (:1 , :2 , :3 , :4 , :5 , :6 , :7 , :8 , :9 ), Original SQL = INSERT INTO USER_ACCOUNT (full_name, email, password_hash, phone, status, created_at, security_question, security_answer_hash, password_hint) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?), Error Message = ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."USER_ACCOUNT"."PASSWORD_HASH")
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723)
+	... 79 more
+
+Jan 30, 2026 12:02:28 PM com.revplay.util.LoggerUtil logError
+SEVERE: Error in createPlaylist: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."PLAYLIST"."PRIVACY_STATUS")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."PLAYLIST"."PRIVACY_STATUS")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:975)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1510)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2020)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1633)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973)
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1007)
+	at com.revplay.dao.PlaylistDaoImpl.createPlaylist(PlaylistDaoImpl.java:27)
+	at com.revplay.service.PlaylistServiceImpl.createPlaylist(PlaylistServiceImpl.java:20)
+	at com.revplay.service.PlaylistServiceTest.testCreatePlaylist_Success(PlaylistServiceTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.revplay.ManualTestRunner.main(ManualTestRunner.java:22)
+Caused by: Error : 1400, Position : 114, SQL = INSERT INTO PLAYLIST (user_id, name, description, privacy_status, created_at, updated_at) VALUES (:1 , :2 , :3 , :4 , :5 , :6 ), Original SQL = INSERT INTO PLAYLIST (user_id, name, description, privacy_status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?), Error Message = ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."PLAYLIST"."PRIVACY_STATUS")
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723)
+	... 80 more
+
+Jan 30, 2026 12:24:13 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 12:24:13 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 12:24:17 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: login_07fd49fd-8185-4b8d-b90b-4fce744aebe8@music.com
+Jan 30, 2026 12:24:19 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login successful: login_07fd49fd-8185-4b8d-b90b-4fce744aebe8@music.com
+Jan 30, 2026 12:24:19 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: artist_4d8958dd-6f12-4a1d-a9ec-263ce3288541@music.com
+Jan 30, 2026 12:24:23 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist registered successfully: artist_4d8958dd-6f12-4a1d-a9ec-263ce3288541@music.com
+Jan 30, 2026 12:24:26 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: fail_dc77b5dc-0def-4593-b1b1-f70306446421@music.com
+Jan 30, 2026 12:24:28 PM com.revplay.util.LoggerUtil logWarning
+WARNING: Artist login failed: fail_dc77b5dc-0def-4593-b1b1-f70306446421@music.com
+Jan 30, 2026 12:24:28 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: test_e38adc66-607a-42db-8bfa-0b8473369700@example.com
+Jan 30, 2026 12:24:34 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: duplicate_35e641ad-3f9d-4029-a887-8163a29f3f34@example.com
+Jan 30, 2026 12:24:55 PM com.revplay.util.LoggerUtil logError
+SEVERE: Error in addGenre: ORA-00001: unique constraint (DADANFAYAZALI_SCHEMA_1E11D.SYS_C001749358) violated on table DADANFAYAZALI_SCHEMA_1E11D.GENRE columns (GENRE_NAME)
+ORA-03301: (ORA-00001 details) row with column values (GENRE_NAME:'Rock') already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (DADANFAYAZALI_SCHEMA_1E11D.SYS_C001749358) violated on table DADANFAYAZALI_SCHEMA_1E11D.GENRE columns (GENRE_NAME)
+ORA-03301: (ORA-00001 details) row with column values (GENRE_NAME:'Rock') already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:975)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1510)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2020)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1633)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973)
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1007)
+	at com.revplay.dao.GenreDaoImpl.addGenre(GenreDaoImpl.java:72)
+	at com.revplay.service.GenreServiceTest.testGetOrCreateGenre_Existing(GenreServiceTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.revplay.ManualTestRunner.main(ManualTestRunner.java:22)
+Caused by: Error : 1, Position : 0, SQL = INSERT INTO GENRE (genre_name) VALUES (:1 ), Original SQL = INSERT INTO GENRE (genre_name) VALUES (?), Error Message = ORA-00001: unique constraint (DADANFAYAZALI_SCHEMA_1E11D.SYS_C001749358) violated on table DADANFAYAZALI_SCHEMA_1E11D.GENRE columns (GENRE_NAME)
+ORA-03301: (ORA-00001 details) row with column values (GENRE_NAME:'Rock') already exists
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723)
+	... 79 more
+
+Jan 30, 2026 12:25:06 PM com.revplay.util.LoggerUtil logError
+SEVERE: Error in addUserAccount: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."USER_ACCOUNT"."PASSWORD_HASH")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."USER_ACCOUNT"."PASSWORD_HASH")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:975)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1510)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2020)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1633)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973)
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1007)
+	at com.revplay.dao.UserAccountDaoImpl.addUserAccount(UserAccountDaoImpl.java:28)
+	at com.revplay.service.PlaylistServiceTest.testDeletePlaylist_Success(PlaylistServiceTest.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.revplay.ManualTestRunner.main(ManualTestRunner.java:22)
+Caused by: Error : 1400, Position : 161, SQL = INSERT INTO USER_ACCOUNT (full_name, email, password_hash, phone, status, created_at, security_question, security_answer_hash, password_hint) VALUES (:1 , :2 , :3 , :4 , :5 , :6 , :7 , :8 , :9 ), Original SQL = INSERT INTO USER_ACCOUNT (full_name, email, password_hash, phone, status, created_at, security_question, security_answer_hash, password_hint) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?), Error Message = ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."USER_ACCOUNT"."PASSWORD_HASH")
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723)
+	... 79 more
+
+Jan 30, 2026 12:25:12 PM com.revplay.util.LoggerUtil logError
+SEVERE: Error in createPlaylist: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."PLAYLIST"."PRIVACY_STATUS")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."PLAYLIST"."PRIVACY_STATUS")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:975)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1510)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2020)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1633)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973)
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1007)
+	at com.revplay.dao.PlaylistDaoImpl.createPlaylist(PlaylistDaoImpl.java:27)
+	at com.revplay.service.PlaylistServiceImpl.createPlaylist(PlaylistServiceImpl.java:20)
+	at com.revplay.service.PlaylistServiceTest.testCreatePlaylist_Success(PlaylistServiceTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.revplay.ManualTestRunner.main(ManualTestRunner.java:22)
+Caused by: Error : 1400, Position : 114, SQL = INSERT INTO PLAYLIST (user_id, name, description, privacy_status, created_at, updated_at) VALUES (:1 , :2 , :3 , :4 , :5 , :6 ), Original SQL = INSERT INTO PLAYLIST (user_id, name, description, privacy_status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?), Error Message = ORA-01400: cannot insert NULL into ("DADANFAYAZALI_SCHEMA_1E11D"."PLAYLIST"."PRIVACY_STATUS")
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723)
+	... 80 more
+
+Jan 30, 2026 12:28:29 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 12:28:29 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 12:28:34 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: login_70be55e1-7bd2-4575-936f-6a3f628cd14d@music.com
+Jan 30, 2026 12:28:36 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login successful: login_70be55e1-7bd2-4575-936f-6a3f628cd14d@music.com
+Jan 30, 2026 12:28:36 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: artist_034182bf-efda-46a6-8a72-491ad211f9ee@music.com
+Jan 30, 2026 12:28:40 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist registered successfully: artist_034182bf-efda-46a6-8a72-491ad211f9ee@music.com
+Jan 30, 2026 12:28:44 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: fail_e6daa7ae-2e0c-48d4-9420-6881e4af400b@music.com
+Jan 30, 2026 12:28:46 PM com.revplay.util.LoggerUtil logWarning
+WARNING: Artist login failed: fail_e6daa7ae-2e0c-48d4-9420-6881e4af400b@music.com
+Jan 30, 2026 12:28:46 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: test_03711388-a5f5-44e1-a425-4ba5603a5735@example.com
+Jan 30, 2026 12:28:52 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: duplicate_f5fcc1f1-a42f-45c5-b51b-82de86bbc605@example.com
+Jan 30, 2026 12:34:55 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: login@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login successful: login@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: artist@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist registered successfully: artist@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: same@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist registered successfully: same@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: same@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logWarning
+WARNING: Artist registration failed: Email exists - same@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Artist login attempt: wrong@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logWarning
+WARNING: Artist login failed: wrong@music.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: test@example.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: User registered successfully: test@example.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: duplicate@example.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: User registered successfully: duplicate@example.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register user: duplicate@example.com
+Jan 30, 2026 12:34:56 PM com.revplay.util.LoggerUtil logWarning
+WARNING: Registration failed: User already exists - duplicate@example.com
+Jan 30, 2026 12:53:46 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 12:53:46 PM com.revplay.util.LoggerUtil logError
+SEVERE: Failed to load database config
+java.lang.RuntimeException: db.properties not found in src folder
+	at com.revplay.util.JDBCUtil.<clinit>(JDBCUtil.java:23)
+	at com.revplay.dao.UserAccountDaoImpl.getUserAccountByEmail(UserAccountDaoImpl.java:73)
+	at com.revplay.service.UserAccountServiceImpl.getUserByEmail(UserAccountServiceImpl.java:56)
+	at com.revplay.main.Main.loginUser(Main.java:75)
+	at com.revplay.main.Main.main(Main.java:39)
+
+Jan 30, 2026 12:56:36 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 12:56:36 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 1:03:18 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 1:03:18 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 1:04:49 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 1:04:49 PM com.revplay.util.LoggerUtil logInfo
+INFO: Attempting to register artist: anu@gmail.com
+Jan 30, 2026 1:04:49 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
+Jan 30, 2026 1:04:54 PM com.revplay.util.LoggerUtil logError
+SEVERE: Error in registerArtist: ORA-00904: "PASSWORD_HINT": invalid identifier
+
+https://docs.oracle.com/error-help/db/ora-00904/
+java.sql.SQLSyntaxErrorException: ORA-00904: "PASSWORD_HINT": invalid identifier
+
+https://docs.oracle.com/error-help/db/ora-00904/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:975)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1510)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2020)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1633)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973)
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1007)
+	at com.revplay.dao.ArtistDaoImpl.registerArtist(ArtistDaoImpl.java:34)
+	at com.revplay.service.ArtistServiceImpl.registerArtist(ArtistServiceImpl.java:25)
+	at com.revplay.main.Main.registerArtist(Main.java:310)
+	at com.revplay.main.Main.main(Main.java:48)
+Caused by: Error : 904, Position : 159, SQL = INSERT INTO ARTIST_ACCOUNT (stage_name, email, password_hash, bio, genre, instagram_link, youtube_link, spotify_link, security_question, security_answer_hash, password_hint, status, created_at) VALUES (:1 , :2 , :3 , :4 , :5 , :6 , :7 , :8 , :9 , :10 , :11 , :12 , :13 ), Original SQL = INSERT INTO ARTIST_ACCOUNT (stage_name, email, password_hash, bio, genre, instagram_link, youtube_link, spotify_link, security_question, security_answer_hash, password_hint, status, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), Error Message = ORA-00904: "PASSWORD_HINT": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723)
+	... 18 more
+
+Jan 30, 2026 1:04:54 PM com.revplay.util.LoggerUtil logWarning
+WARNING: Handled UI exception: Error registering artist
+Jan 30, 2026 1:13:21 PM com.revplay.util.LoggerUtil <clinit>
+INFO: Logger initialized.
+Jan 30, 2026 1:13:21 PM com.revplay.util.LoggerUtil logInfo
+INFO: JDBC Driver Loaded
